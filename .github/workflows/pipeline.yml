@@ -27,5 +27,7 @@ jobs:
           args: >
             -Dsonar.organization=amarnathsaha
             -Dsonar.projectKey=amarnathsaha_spring-boot-hello-world
-            -Dsonar.sources=.
             -Dsonar.verbose=true
+			-Dsonar.sources=src/main/java/
+			-Dsonar.language=java
+			-Dsonar.java.binaries=**/target/classes
