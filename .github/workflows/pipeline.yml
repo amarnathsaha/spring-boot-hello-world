@@ -28,6 +28,6 @@ jobs:
             -Dsonar.organization=amarnathsaha
             -Dsonar.projectKey=amarnathsaha_spring-boot-hello-world
             -Dsonar.verbose=true
-			-Dsonar.sources=src/main/java/
-			-Dsonar.language=java
-			-Dsonar.java.binaries=**/target/classes
+            -Dsonar.sources=src/main/java/
+            -Dsonar.language=java
+            -Dsonar.java.binaries=**/target/classes
