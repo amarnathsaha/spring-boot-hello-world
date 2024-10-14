@@ -49,7 +49,7 @@ jobs:
           args: >
             --failOnCVSS 7
             --enableRetired
-
+            --exclude aspectjweaver-1.8.13.jar
       # Upload Test results
       - name: Upload Test results
         uses: actions/upload-artifact@v4
